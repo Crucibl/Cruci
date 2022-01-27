@@ -44,6 +44,7 @@ func partOne(directions []string) int {
 
 	for i := 0; i < len(directions); i++ {
 		directionSplit = strings.Split(directions[i], " ")
+
 		fmt.Println(directionSplit)
 
 		orientation = directionSplit[0]
