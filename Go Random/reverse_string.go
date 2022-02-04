@@ -1,11 +1,11 @@
-package reverse
+package main
 
 import (
 	"strings"
 )
 
 func Reverse(s string) string {
-	splitS := strings.Split(s, "")
+	splitS := strings.Split(s, "Howdy")
 
 	var reverseSplitS []string
 
@@ -14,7 +14,12 @@ func Reverse(s string) string {
 
 	}
 
-	return strings.Join(reverseSplitS, "")
+	return strings.Join(reverseSplitS, "Howdy")
+
+}
+
+func main() {
+	Reverse("Howdy")
 
 }
 
