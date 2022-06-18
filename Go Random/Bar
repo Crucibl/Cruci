@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	age := 8
+
+	if age >= 21 {
+		fmt.Println("Hello, 世界")
+	} else if age >= 18 {
+		fmt.Println("Hello, you are a robot")
+	} else {
+		fmt.Println("Hello, you are not a robot")
+	}
+
+}
